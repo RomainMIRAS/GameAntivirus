@@ -1,0 +1,191 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U p_virus%b		p_virus.adb		1a90008a NE OO PK IL
+Z interfaces%s		interfac.ads		interfac.ali
+Z p_esiut%s		p_esiut.adb		p_esiut.ali  ED
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_char%s	s-imgcha.adb		s-imgcha.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U p_virus%s		p_virus.ads		2176b22f EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+Z interfaces%s		interfac.ads		interfac.ali
+Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W p_esiut%s		p_esiut.adb		p_esiut.ali
+W sequential_io%s
+W system%s		system.ads		system.ali
+Z system.byte_swapping%s  s-bytswa.ads		s-bytswa.ali
+Z system.crtl%s		s-crtl.ads		s-crtl.ali
+Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+Z system.file_io%s	s-fileio.adb		s-fileio.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.sequential_io%s  s-sequio.adb		s-sequio.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-sequio.ads		20180111085525 3573d8ce ada.sequential_io%s
+D a-sequio.adb		20180111085525 93d6700a ada.sequential_io%b
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D p_esiut.adb		20190918114551 4a7ed7d1 p_esiut%b
+D p_virus.ads		20210202024520 54561f2e p_virus%s
+D p_virus.adb		20210202024518 4ec61fa4 p_virus%b
+D sequenio.ads		20170908151217 46f09bdc sequential_io%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-bytswa.ads		20180111085525 799c7440 system.byte_swapping%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-fileio.ads		20180111085525 45ce2f0f system.file_io%s
+D s-imgboo.ads		20180111085525 f5d971eb system.img_bool%s
+D s-imgcha.ads		20180111085525 9c3458e7 system.img_char%s
+D s-imenne.ads		20180111085525 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180111085525 c7a851e2 system.img_real%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-sequio.ads		20180111085525 fc7560a7 system.sequential_io%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valenu.ads		20180111085525 bb1a4295 system.val_enum%s
+D s-valint.ads		20180111085525 48a52a3f system.val_int%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+D unchconv.ads		20170908151217 ca2f9e18 unchecked_conversion%s
+X 4 a-sequio.ads
+53P9*File_Type<34|63P9> 16|39r52[27] 17|20r47[16|27]
+55E9*File_Mode
+55n23*In_File{55E9[16|27]} 17|32r14[16|27]
+84U14*Reset 17|32s5[16|27]
+99U14*Read 17|36s7[16|27] 38s9[16|27] 44s7[16|27] 50s9[16|27]
+102V13*End_Of_File{boolean} 17|35s15[16|27] 43s15[16|27]
+X 14 p_esiut.ads
+15K11*p_esiut 181e14 16|1w26 1r39
+69U16*ECRIRE=70:42 17|65s5 71s11
+112U16*A_LA_LIGNE=113:42 17|76s5
+144k14*P_ENUM 170e19 16|14r34 31r33
+X 16 p_virus.ads
+3K9*p_virus 88l5 88e12 17|1b14 195l5 195t12
+6E17*T_Col{character} 10r40 18r33 17|95r32 95r72 99r32 99r71 103r32 103r71
+. 107r33 107r72 129r15 133r61 133r71 141r27 141r37 141r50 160r28 160r38 160r50
+. 162r27 162r37 162r49 163r25 163r35 174r28 174r38 174r50 176r27 176r37 176r49
+. 177r25 177r35
+7I17*T_Lig{integer} 10r34 19r33 17|128r15 133r48
+8E14*T_Coul 8e104 10r50 13r28
+8n25*rouge{8E14} 13r41 17|37r25 49r25 191r26 191r52
+8n32*turquoise{8E14}
+8n43*orange{8E14}
+8n51*rose{8E14}
+8n57*marron{8E14}
+8n65*bleu{8E14}
+8n71*violet{8E14}
+8n79*vert{8E14}
+8n85*jaune{8E14}
+8n92*blanc{8E14} 13r48 17|86r13
+8n99*vide{8E14} 17|10r24 95r49 99r49 103r49 107r50 164r29 178r29
+10A14*TV_Grille(8E14)<integer><character> 35r46 40r106 49r40 55r39 59r45
+. 63r39 17|4r40 20r92 59r34 79r33 122r39 188r31
+13E17*T_CoulP{8E14} 14r41 20r33 24r33 49r61 55r60 59r66 17|59r55 79r54 122r60
+14K17*p_coul_io[14|144] 14r55
+17R14*TR_ElemP 21e19 27r50 17|29r12
+18e17*colonne{6E17} 17|45r31 52r33
+19i17*ligne{7I17} 17|45r19 52r21
+20e17*couleur{13E17} 17|37r15 45r48 46r22 47r21 49r15 52r50
+24A14*TV_Pieces(boolean)<8E14> 35r73 40r133 17|4r67 20r119
+27K17*p_piece_io[4|43] 27r65 39r41 17|20r36
+30E14*T_Direction 30e45 31r40 55r78 59r84 17|79r72 122r78
+30n30*bg{30E14} 17|98r23 157r26
+30n34*hg{30E14} 17|94r20 145r14 171r14
+30n38*bd{30E14} 17|106r23 151r14 157r14
+30n42*hd{30E14} 17|102r23 145r26 151r26 171r26
+31K17*p_dir_io[14|144] 31r58
+35U19*InitPartie 35=30 35=57 17|4b13 18l7 18t17
+35a30 Grille{10A14} 17|4b24 8r14 9r16 10m9
+35a57 Pieces{24A14} 17|4b51 14r14 15m7
+39U19*Configurer 39=30 39>63 40=90 40=117 17|20b13 56l7 56t17
+39p30 f{4|53P9[27]} 17|20b25 32m11 35r27 36r12 38r14 43r27 44r12 50r14
+39i63 num{integer} 17|20b58 35r38 43r38
+40a90 Grille{10A14} 17|20b76 45m7 52m9
+40a117 Pieces{24A14} 17|20b103 46r10 47m9
+49U19*PosPiece 49>28 49>51 17|59b13 77l7 77t15
+49a28 Grille{10A14} 17|59b22 67r14 68r16 70r12
+49e51 coul{13E17} 17|59b45 65r12 70r26
+55V18*Possible{boolean} 55>27 55>50 55>69 17|79b12 119l7 119t15
+55a27 Grille{10A14} 17|79b21 89r14 90r16 92r12 95r21 95r61 99r21 99r60 103r21
+. 103r60 107r22 107r61
+55e50 coul{13E17} 17|79b44 86r6 92r26 95r90 99r89 103r89 107r90
+55e69 Dir{30E14} 17|79b63 94r14 98r17 102r17 106r17
+59U19*MajGrille 59=29 59>56 59>75 17|122b13 184l7 184t16
+59a29 Grille{10A14} 17|122b23 138r14 139r16 140r12 158r24 159r26 163m13 163r55
+. 164m13 172r16 173r18 177m13 177r55 178m13
+59e56 coul{13E17} 17|122b50 140r27
+59e75 Dir{30E14} 17|122b69 145r8 145r20 151r8 151r20 157r8 157r20 171r8 171r20
+63V18*Guerison{boolean} 63>27 17|188b10 192l5 192t13
+63a27 Grille{10A14} 17|188b19 191r10 191r36
+X 17 p_virus.adb
+8i9 i{integer} 10r16
+9e11 j{character} 10r18
+14e9 k{16|8E14} 15r14
+28i5 i{integer} 35r34 39m9 39r14 43r34 51m9 51r14
+29r5 elem{16|17R14} 36m15 37r10 38m17 44m15 45r14 45r26 45r43 46r17 47r16
+. 49r10 50m17 52r16 52r28 52r45
+67i9 i{integer} 70r19 71r26
+68e11 j{character} 70r21 71r36
+83b5 possible{boolean} 96m15 100m15 104m15 108m15 111m13 116r12
+89i9 i{integer} 92r19 95r28 95r68 99r28 99r67 103r28 103r67 107r29 107r68
+90e11 j{character} 92r21 95r43 95r83 99r43 99r82 103r43 103r82 107r44 107r83
+125i5 y{integer} 152m7 154m7 163r48 177r48
+126i5 x{integer} 146m7 148m7 163r22 177r22
+127R10 TR_case 131e15 133r89
+128i7 caseX{16|7I17}
+129e7 caseY{16|6E17}
+130b7 Achanger{boolean} 141m65 160r64 162m63 174r64 176m63
+133A10 TV_tableau(127R10)<integer> 134r15
+134a5 tableau{133A10} 141m11 160r14 162m13 174r14 176m13
+138i9 i{integer} 140r19 141r21
+139e11 j{character} 140r22 141r60
+158i11 i{integer} 160r23 162r22 163r20 163r62 164r20
+159e13 j{character} 160r60 162r59 163r45 163r64 164r23
+172i11 i{integer} 174r23 176r22 177r20 177r62 178r20
+173e13 j{character} 174r60 176r59 177r45 177r64 178r23
+X 18 sequenio.ads
+24k17*Sequential_IO 16|1w6 27r35
+X 34 s-sequio.ads
+63P9*File_Type(43R9)
+

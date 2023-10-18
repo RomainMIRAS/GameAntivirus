@@ -1,0 +1,148 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U stdarg.impl%b		stdarg-impl.adb		771cc0b5 NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W stdarg%s		stdarg.adb		stdarg.ali
+W stdarg.machine%s	stdarg-machine.ads	stdarg-machine.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U stdarg.impl%s		stdarg-impl.ads		a6b6eca7 EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W stdarg%s		stdarg.adb		stdarg.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-c.ads		20170908151217 5421119b interfaces.c%s
+D i-cpoint.ads		20180111085525 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20180111085525 d5172521 interfaces.c.pointers%b
+D i-cstrin.ads		20180111085525 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D stdarg.ads		20131119093435 7296442b stdarg%s
+D stdarg-impl.ads	20131119093435 3aaa3b60 stdarg.impl%s
+D stdarg-impl.adb	20131119093435 96167160 stdarg.impl%b
+D stdarg-machine.ads	20131119093435 fa12422d stdarg.machine%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+X 8 interfac.ads
+38K9*Interfaces 184e15 15|18r6 27r20 53r26
+X 9 i-c.ads
+18K20*C 230e17 15|18r17 27r31 53r37
+35I9*int<integer> 15|27r33
+37I9*long<long_integer>
+X 10 i-cpoint.ads
+44k22*Pointers 102e26 15|18w19 53r39
+47P9*Pointer(9|37I9) 15|56r36[53] 16|48r20[15|53]
+68V14*"+"{47P9[15|53]} 16|50s38[15|53]
+X 14 stdarg.ads
+23K9*Stdarg 86e11 15|20r9 45r57 54r27 61r5 16|18r6 21r14 23r9 160r5
+29N5*MaxArguments 16|44r20 48r52 118r28 119r28
+34R10*ArgList 76e15 15|31r42 33r44 35r30 37r32 37r48 16|31r36 55r42 60r44
+. 65r30 74r32 74r48
+45I13*C_Param{9|37I9} 15|45r64 54r18
+49A10 ArgVector(45I13)<integer> 15|54r34
+52a9*Vector{49A10} 16|39m34 41m34 43m34 48m45 96m35 97r40 99m31 100r36 145m27
+. 146r32
+54i9*CurrentArgs{natural} 16|34r26 44r47 67r34 86r55 88r60 93r50 94r45 102m27
+. 102r56 103r32 110r42 118r57 130r36 132r30 151m23 151r52 152r28
+55i9*FirstHole{natural} 16|131r31
+71P10 ArgBlockP(51R10)
+75p9*Contents{71P10} 16|34r17 39r24 39r25 41r25 43r25 44r38 48r36 67r25 86r17
+. 86r46 88r21 88r51 93r40 93r41 94r35 94r36 96r25 96r26 97r30 97r31 99r21
+. 99r22 100r26 100r27 102r17 102r18 102r46 102r47 103r22 103r23 110r33 118r48
+. 130r26 130r27 131r22 132r21 145r18 146r23 151r14 151r43 152r19
+X 15 stdarg-impl.ads
+20K16*Impl 14|23k9 15|53E13 61l12 61e16 16|21b21 160l12 160t16
+27I13*Int{9|35I9} 35r46 40r38 44r36 16|65r46 67r16
+29P10*Param_Access<10|47P9[53]> 31r58 33r60 41r38 45r36 56c10 16|32r16 50r24
+. 55r58 60r60
+31V14*Address_of_First_Arg{29P10} 31>36 16|55b14 58l9 58t29
+31r36 Args{14|34R10} 16|55b36 57r31
+33V14*Address_of_Vararg_List{29P10} 33>38 16|60b14 63l9 63t31
+33r38 Args{14|34R10} 16|60b38 62r31
+35V14*ArgCount{27I13} 35>24 16|65b14 68l9 68t17
+35r24 Args{14|34R10} 16|65b24 67r20
+37V15*"&"{14|34R10} 37>19 37>25 16|74b15 158l10 158t12
+37r19 Left{14|34R10} 16|74b19 86r12 86r41 89r20 94r31 96r21 99r17 102r13
+. 102r42 108r20 110r28 118r43 132r16 145r13 151r9 151r38 157r16
+37r25 Right{14|34R10} 16|74b25 87r20 88r15 88r45 93r35 97r25 100r21 103r17
+. 130r21 131r16 146r17 152r13
+39U15*Do_Varargs 39>27 40>27 41>27 58b<c,do_varargs>22
+39m27 Proc{18|67M9}
+40i27 Nb_Args{27I13}
+41p27 Arg_Addr{29P10}
+43V14*F_Varargs{14|45I13} 43>25 44>25 45>25 59b<c,do_varargs>22
+43m25 Func{18|67M9}
+44i25 Nb_Args{27I13}
+45p25 Arg_Addr{29P10}
+53K13 Arith[10|44] 56r30 16|47r21
+X 16 stdarg-impl.adb
+29E10 Which_Arg 29e42 31r52
+29n24 Ellipsis{29E10} 42r23 57r37
+29n34 VA_List{29E10} 62r37
+31V14 Address_of_Arg{15|29P10} 31b14 31>30 31>45 53l9 53t23 57s16 62s16
+31r30 Args{14|34R10} 34r12 39r20 41r20 43r20 44r33 48r31
+31e45 Which{29E10} 42r15
+48p17 P{10|47P9[15|53]} 50r37
+75i9 Hole_Change{integer} 137m25 141m25 152r42
+76i9 Incr{integer} 82r30 112m13 120m13
+77i9 Left_Index{positive} 94m17 95r20 96r42 99r38 110m13 118m13 140m33 140r33
+. 145r34 147m21 147r21
+78i9 Right_Index{positive} 111m13 119m13 136m33 136r33 146r39 148m21 148r21
+80U19 Do_Incr 80b19 80=27 83l13 83t20 84r23 136s25 140s25 147s13 148s13
+80i27 Index{natural} 82m13 82r22
+93i17 Right_Index{integer} 94r59 97r47 100r43
+130i13 I{integer} 131r43 134r24
+X 17 stdarg-machine.ads
+20K16*Machine 16|18w13 23r16 17|86e19
+36n42*Alpha{36E10} 16|38r24 92r24
+38e5*This_Arch{36E10} 16|38r12 92r12
+41n9*Up{40E10} 16|40r30 109r30
+81i5*Int_Param_Alignment{positive} 16|133r43
+82i5*Float_Param_Alignment{positive} 16|133r19
+83e5*Stack_Growth{40E10} 16|40r15 109r15
+X 18 system.ads
+37K9*System 15|39r41 43r39 18|156e11
+67M9*Address 15|39r48 43r46
+X 31 text_io.ads
+24K9*Text_IO=24:29 16|19w6
+

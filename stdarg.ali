@@ -1,0 +1,147 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U stdarg%b		stdarg.adb		692a43c5 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+W stdarg%s		stdarg.adb		stdarg.ali
+W stdarg.machine%s	stdarg-machine.ads	stdarg-machine.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U stdarg%s		stdarg.ads		549fb46b BN EE NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20170908151217 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-c.ads		20170908151217 5421119b interfaces.c%s
+D i-cstrin.ads		20180111085525 341d0ddf interfaces.c.strings%s
+D stdarg.ads		20131119093435 7296442b stdarg%s
+D stdarg.adb		20131119093435 65ab80e1 stdarg%b
+D stdarg-machine.ads	20131119093435 fa12422d stdarg.machine%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+X 1 ada.ads
+16K9*Ada 20e8 8|18r6
+X 3 a-uncdea.ads
+20u15*Unchecked_Deallocation 8|18w10
+X 4 interfac.ads
+38K9*Interfaces 184e15 7|19r6 20r6 45r24 8|135r21 139r39 140r28 144r39 145r39
+X 5 i-c.ads
+18K20*C 230e17 7|19w17 20r17 45r35 8|135r32 139r50 140r39 144r50 145r50
+35I9*int<integer> 8|139r52 144r52 145r52
+37I9*long<long_integer> 7|45r37
+65F9*double<long_float> 8|135r34 140r41
+X 6 i-cstrin.ads
+36K22*Strings 106e25 7|20w19
+X 7 stdarg.ads
+23K9*Stdarg 49E10 86l5 86e11 8|19r6 25b14 27r9 252l5 252t11
+29N5*MaxArguments 52r36 58r21 8|165r50 217r50
+34R10*ArgList 37r27 43r27 43r51 74c10 76e15 8|121r27 121r51 244r27 245r14
+37V14*Empty{34R10} 8|244b14 250l9 250t14
+40+14 T 43r41 8|121r41 122r36 124r38 156r15
+41b9 T_Is_Modular{boolean} 8|158r43
+42b9 T_Is_Float{boolean} 8|150r12 182r20
+43v14*Concat 43>21 43>36 8|121b14 242l9 242t15
+43r21 Args{34R10} 8|121b21 165r22 173r29 174r21 179r20 180r21 183r30 185r30
+. 187r29 192r29 193r21 199r29 200r21 202r24 203r25 204r29 206r25 207r25 208r29
+. 217r29 218r29 220r24 221r25 222r29 224r25 225r25 226r29 237r9 237r38 241r16
+43*36 Arg{40+14} 8|121b36 126r38 127r14 129r31 151r41 151r54 157r39 157r52
+. 240r27
+45I13*C_Param{5|37I9} 49r58 58r34 8|136r21 146r28 156r24
+49A10 ArgVector(45I13)<integer> 52r23
+51R10 ArgBlock 56e15 71r30 8|247r29
+52a9*Vector{49A10} 8|173m43 187m43 192m43 199m43 217m43
+53i9*RefCount{natural}
+54i9*CurrentArgs{natural} 8|165r36 174r35 179r34 180m35 183r44 185r44 193r35
+. 200r35 204r43 206r39 207m39 208r43 218r43 222r43 224r39 225m39 226r43 237m23
+. 237r52
+55i9*FirstHole{natural} 8|202r38 203m39 220r38 221m39
+58N5 AS
+59N5 NS
+71P10 ArgBlockP(51R10) 75r19
+75p9*Contents{71P10} 8|165r26 165r27 173r33 173r34 174r25 174r26 179r24 179r25
+. 180r25 180r26 183r34 183r35 185r34 185r35 187r33 187r34 192r33 192r34 193r25
+. 193r26 199r33 199r34 200r25 200r26 202r28 202r29 203r29 203r30 204r33 204r34
+. 206r29 206r30 207r29 207r30 208r33 208r34 217r33 217r34 218r33 218r34 220r28
+. 220r29 221r29 221r30 222r33 222r34 224r29 224r30 225r29 225r30 226r33 226r34
+. 237r13 237r14 237r42 237r43 247m13
+X 8 stdarg.adb
+33V14 RoundUp{natural} 33b14 33>22 47l9 47t16 122s28 153s31 160s31
+33i22 Siz{natural} 34r35 42r20 44r20
+34i9 Slop{natural} 41r12 44r47
+35i9 Res{natural} 42m13 44m13 46r16
+113U15 put 113b15 113>19 113>30 119l9 119t12 238s9 239s9 240s9
+113a19 s{string}
+113m30 a{10|67M9}
+122i9 Nb_Int{natural} 124r14 153m13 160m13 165r13 176r25 189r25 196r24 214r24
+. 218r57 233r34 237r66
+123i9 Uncopied_bytes{natural} 154m13 161m13 176r46 189r46 194r50 195r50 196r44
+. 212r50 213r50 214r44 232r50 233r52
+126m9 Arg_Addr{10|67M9} 152m13 159m13 175r34 188r34 195r24 213r24 233r24
+. 238r25
+128m9 Buf_Addr{10|67M9} 173m17 175r24 187m17 188r24 192m17 194r24 199m17
+. 209m25 209r37 212r24 217m17 227m25 227r37 232r24 239r25
+129i9 Arg_Size{integer} 155m13 162m13 201r21 219r21
+130i9 Index{integer} 183m21 185m21 187r50
+132U19*Memcpy 132>26 132>30 132>52 133b<c,memcpy>26 175s17 188s17 194s17
+. 212s17 232s17
+132m26 To{10|67M9}
+132m30 From{10|67M9}
+132i52 Nbytes{natural}
+135f9 Double_Arg{5|65F9} 151m13 152m31 152r31 153r39 155r31
+136i9 Long_Arg{7|45I13} 157m13 159m31 159r31 160r39 162r31
+138V18*To_Double{5|65F9} 138>29 139>29 141b<c,to_double>26 151s31
+138m29 Arg_Addr{10|67M9}
+139i29 Arg_Size{5|35I9}
+143V18*To_Long{7|45I13} 143>27 144>27 145>27 147b<c,to_long>26 157s31
+143m27 Arg_Addr{10|67M9}
+144i27 Arg_Size{5|35I9}
+145i27 Is_Modular{5|35I9}
+245r9 Res{7|34R10} 247m9 249r16
+X 9 stdarg-machine.ads
+20K16*Machine 8|19w13 27r16 9|86e19
+36n19*I386{36E10} 8|172r18
+36n25*Sparc{36E10} 8|191r18
+36n32*HP{36E10} 8|216r18
+36n36*Mips{36E10} 8|198r18
+36n42*Alpha{36E10} 8|178r18
+36n49*PowerPC{36E10} 8|191r26
+38e5*This_Arch{36E10} 8|171r14
+81i5*Int_Param_Alignment{positive} 8|34r43 44r27 127r45
+84i5*Param_Size{positive} 8|46r20 124r23 176r32 189r32 196r31 209r63 214r31
+. 227r63 233r41
+X 10 system.ads
+37K9*System 7|21w6 8|20w6 21r6 113r33 122r43 124r45 125r13 126r20 128r20
+. 132r36 138r39 143r39 153r55 160r53 10|156e11
+67M9*Address 8|113r40 126r27 128r27 132r43 138r46 143r46
+71N4*Storage_Unit 8|122r50 124r52 153r62 160r60
+X 14 s-stoele.ads
+42K16*Storage_Elements 8|21w13 125r20 14|117e28
+54I9*Storage_Offset<long_integer> 8|127r30 194r35 195r35 209r48 212r35 213r35
+. 227r48 232r35
+76V14*"+"{10|67M9} 8|194s33 195s33 209s46 212s33 213s33 232s33
+86V14*"-"{10|67M9} 8|126s50 227s46
+96V14*"mod"{54I9} 8|127s26
+

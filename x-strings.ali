@@ -1,0 +1,173 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+P SS ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U x.strings%b		x-strings.adb		b9f1b311 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W x%s			x.ads			x.ali
+
+U x.strings%s		x-strings.ads		5e45f575 BN EE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W x%s			x.ads			x.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20170908151217 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-c.ads		20170908151217 5421119b interfaces.c%s
+D i-cpoint.ads		20180111085525 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20180111085525 d5172521 interfaces.c.pointers%b
+D i-cstrin.ads		20180111085525 341d0ddf interfaces.c.strings%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D x.ads			20131119093435 27ec3b31 x%s
+D x-strings.ads		20131119093435 c2e78742 x.strings%s
+D x-strings.adb		20131119093435 dc4b9c1a x.strings%b
+X 1 ada.ads
+16K9*Ada 20e8 22|16r6 17r6 22r26 25r26 28r26 31r26 34r26
+X 3 a-unccon.ads
+20v14*Unchecked_Conversion 22|16w10 22r30 25r30 28r30 31r30 34r30
+X 4 a-uncdea.ads
+20u15*Unchecked_Deallocation 22|17w10
+X 5 interfac.ads
+38K9*Interfaces 184e15 21|17r6 18r6 32r44 35r26 46r51 51r19 52r16 60r19 66r52
+. 69r32 70r16 86r28 86r54 94r34 122r23 125r23 139r32 140r16 146r32 22|23r9
+. 35r16 37r44 42r26 47r51 49r16 54r19 55r16 57r16 62r16 67r19 70r16 73r52
+. 78r20 82r32 83r16 98r23 103r23 126r32 127r16 128r23 128r44 129r13 148r25
+. 153r37
+X 6 i-c.ads
+18K20*C 230e17 21|17r17 18r17 32r55 35r37 46r62 51r30 52r27 60r30 66r63 69r43
+. 70r27 86r39 86r65 94r45 122r34 125r34 139r43 140r27 146r43 22|23r20 35r27
+. 37r55 42r37 47r62 49r27 54r30 55r27 57r27 62r27 67r30 70r27 73r63 78r31
+. 82r43 83r27 98r34 103r34 126r43 127r27 128r34 128r55 129r24 148r36 153r48
+35I9*int<integer> 21|86r41 86r67
+60M9*size_t 21|51r32 60r32 66r65 70r29 22|54r32 67r32 73r65 83r29
+72E9*char<character> 22|128r36 128r57
+79A9*char_array(72E9)<60M9> 21|46r64 52r29 69r45 122r36 125r36 139r45 140r29
+. 146r45 22|47r64 55r29 82r45 98r36 103r36 126r45 127r29
+X 7 i-cpoint.ads
+39E9 Index 21|95r9
+40+9 Element 21|96r9
+41A9 Element_Array(40+9)<39E9> 21|97r9
+42*4 Default_Terminator{40+9} 21|98r9
+44k22*Pointers 102e26 21|17w19 94r47
+47P9*Pointer(21|30P10) 21|100r43[94]
+X 9 i-cstrin.ads
+36K22*Strings 106e25 21|18w19 32r57 35r39 22|23r22 35r29 37r57 42r39 49r29
+. 57r29 62r29 70r29 78r33 148r38 153r50
+47P9*chars_ptr 21|32r65 35r47 22|23r30 35r37 37r65 42r47
+60V13*New_String{47P9} 22|148s46 153s58
+68V13*Value{6|79A9} 22|49s37
+70V13*Value{6|79A9} 22|57s37
+74V13*Value{string} 22|62s37
+76V13*Value{string} 22|70s37
+80V13*Strlen{6|60M9} 22|78s41
+X 10 system.ads
+37K9*System 156e11 21|19w6 147r9 22|18w6 29r9 32r9
+67M9*Address 22|29r16 32r16
+69m4*Null_Address{67M9} 21|148r37
+X 20 x.ads
+21K9*X 430e6 21|16w6 21r9 23r21 150r5 22|20r14 156r5
+375E13*char{6|72E9} 21|23r23
+X 21 x-strings.ads
+21K11*Strings 20|21k9 21|150l7 150e14 22|20b16 156l7 156t14
+23E13*char{20|375E13} 30r30 44r41
+30P10*charp(23E13) 32r30 35r65 77r44 88r65 96r31 116r38 122r55 22|23r41 26r22
+. 29r25 35r9 37r30 42r65 88r38 98r55 146r44
+32V14*to_chars_ptr{9|47P9} 32>27 33r19 22|37b14 40l9 40t21
+32p27 p{30P10} 22|37b27 39r21
+35V14*to_charp{30P10} 35>23 36r19 22|42b14 45l9 45t17 148s16 153s28
+35p23 p{9|47P9} 22|42b23 44r21
+44P10*const_charp(23E13) 46r31 50r19 55r31 59r19 66r32 79r44 119r38 125r55
+. 22|26r9 32r25 47r31 53r19 60r31 66r19 73r32 93r38 103r55 151r44 153r16
+46V14*Value{6|79A9} 46>21 47r19 22|47b14 50l9 50t14
+46p21 Item{44P10} 22|47b21 49r53
+49V14*Value{6|79A9} 50>7 51>7 22|52b14 58l9 58t14
+50p7 Item{44P10} 22|53b7 57r53
+51m7 Length{6|60M9} 22|54b7 57r61
+55V14*Value{string} 55>21 22|60b14 63l9 63t14
+55p21 Item{44P10} 22|60b21 62r53
+58V14*Value{string} 59>7 60>7 22|65b14 71l9 71t14
+59p7 Item{44P10} 22|66b7 70r53
+60m7 Length{6|60M9} 22|67b7 70r61
+66V14*Strlen{6|60M9} 66>22 67r19 22|73b14 80l9 80t15 85s16
+66p22 Item{44P10} 22|73b22 75r12 78r58
+69V14*Strlen{6|60M9} 69>22 22|82b14 86l9 86t15
+69a22 Item{6|79A9} 22|82b22 85r23 85r28
+77V14*New_String{30P10} 77>26 22|146b14 149l9 149t19
+77a26 S{string} 22|146b26 148r57
+79V14*New_String{44P10} 79>26 22|151b14 154l9 154t19
+79a26 S{string} 22|151b26 153r69
+86I13*Natural_Int{6|35I9} 88r32 95r31
+88A10*charp_array(30P10)<6|35I9> 97r31
+94K13*charp_vectors[7|44] 100r29
+100P13*charp_vector{7|47P9[94]}
+116V14*Addr{30P10} 116>20 117r19 22|88b14 91l9 91t13
+116a20 S{string} 22|88b20 90r21 90r23
+119V14*Addr{44P10} 119>20 22|93b14 96l9 96t13
+119a20 S{string} 22|93b20 95r21 95r23
+122V14*Addr{30P10} 122>20 22|98b14 101l9 101t13
+122a20 S{6|79A9} 22|98b20 100r21 100r23
+125V14*Addr{44P10} 125>20 22|103b14 106l9 106t13
+125a20 S{6|79A9} 22|103b20 105r21 105r23
+137V14*Cat{string} 137>19 137>25 22|108b14 124l9 124t12
+137a19 Left{string} 22|108b19 111r12 111r17 113r24 113r29 113r41 115r24 115r29
+. 115r41 119r24 121r24
+137a25 Right{string} 22|108b25 112r16 112r22 113r56 115r56 118r16 118r22
+. 119r31 121r31
+139V14*Cat{6|79A9} 139>19 139>25 22|126b14 144l9 144t12
+139a19 Left{6|79A9} 22|126b19 131r12 131r17 133r24 133r29 133r41 135r24 135r29
+. 135r41 139r24 141r24
+139a25 Right{6|79A9} 22|126b25 132r16 132r22 133r56 135r56 138r16 138r22
+. 139r31 141r31
+146a5*Null_Char_Array{6|79A9} 148m9 148r9
+X 22 x-strings.adb
+22V14 To_X[3|20]{21|30P10} 44s16
+25V14 To_X[3|20]{21|30P10} 49s48 57s48 62s48 70s48 78s53
+28V14 To_X[3|20]{21|30P10} 90s16 100s16
+31V14 To_X[3|20]{21|44P10} 95s16 105s16
+34V14 To_C[3|20]{9|47P9} 39s16 49s43 57s43 62s43 70s43 78s48
+109e9 Nul{character} 111r30 112r36 115r64 118r36 121r39
+128e9 Nul{6|72E9} 131r30 132r36 135r64 138r36 141r39
+

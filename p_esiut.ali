@@ -1,0 +1,197 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U p_esiut%b		p_esiut.adb		d4065b88 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+W text_io%s		text_io.ads		text_io.ali
+W unchecked_conversion%s
+
+U p_esiut%s		p_esiut.ads		1262fe45 BN EE NE OO PK IL
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiflau.ads		20180111085525 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20180111085525 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20180111085525 fd9b1cfc ada.text_io.float_io%b
+D a-tiinau.ads		20180111085525 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20180111085525 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D p_esiut.ads		20190918114442 33d036dd p_esiut%s
+D p_esiut.adb		20190918114551 4a7ed7d1 p_esiut%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-fatflt.ads		20180111085525 11beb392 system.fat_flt%s
+D s-fatgen.ads		20180111085525 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgboo.ads		20180111085525 f5d971eb system.img_bool%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180111085525 c7a851e2 system.img_real%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valint.ads		20180111085525 48a52a3f system.val_int%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D text_io.ads		20170908151217 21b2c898 text_io%s
+D unchconv.ads		20170908151217 ca2f9e18 unchecked_conversion%s
+X 6 a-textio.ads
+64I9*Count<integer>
+68I12*Positive_Count{64I9} 16|112r45
+73I12*Field{integer}
+78I12*Number_Base{integer}
+166U14*New_Line 16|113r42
+169U14*Skip_Line 17|134s15 138s30 160s11 171s17 194s17 211s11 217s11 244s17
+206U14*Get 17|210s11
+208U14*Put 16|54r42
+242U14*Put 16|70r42 17|111s11 121s11 216s11 224s15 225s15 258s11
+249U14*Get_Line 17|149s15 169s15 192s15 242s15
+263U14*Put_Line 16|88r42 17|137s30 153s30 172s17 181s30 195s17 203s30 245s17
+. 251s30
+X 8 a-tiflio.ads
+46k21*Float_IO 89e25 17|11r32
+57U14*Get 17|133s15[11]
+79U14*Put 17|44s25[11] 57s33[11]
+82i7 Aft{6|73I12} 17|44r41[11] 57r47[11]
+83i7 Exp{6|73I12} 17|44r51[11] 57r55[11]
+X 11 a-tiinio.ads
+46k21*Integer_IO 85e27 17|273r23
+66U14 Put 17|275s1[273]
+67i7 Item{integer} 17|275r5[273]
+69i7 Base{6|78I12} 17|275r22[273]
+X 16 p_esiut.ads
+15K11*p_esiut 181l7 181e14 17|9b14 308l5 308t12
+21U16*ECRIRE 21>23 17|119b11 122l5 122t11 126s3
+21i23 L_ENTIER{integer} 17|119b19 121r29
+24U16*ECRIRE_LIGNE 24>29 17|124b11 127l5 127t17
+24i29 L_ENTIER{integer} 17|124b25 126r10
+26U16*LIRE 26<21 17|143b11 156l5 156t9
+26i21 L_ENTIER{integer} 17|143b16 150m7
+34U16*ECRIRE 34>23 17|109b11 112l5 112t11 116s3
+34f23 LE_REEL{float} 17|109b19 111r21
+42U16*ECRIRE_LIGNE 42>29 17|114b11 117l5 117t17
+42f29 LE_REEL{float} 17|114b25 116r10
+44U16*LIRE 44<21 17|129b11 141l5 141t9
+44f21 LE_REEL{float} 17|129b16 133m19
+53U16*ECRIRE=54:42 17|281s9
+53e25 CARAC{character}
+57U16*ECRIRE_LIGNE 57>29 17|279b11 283t4
+57e29 CARAC{character} 17|279b24 281r16
+59U16*LIRE 59<23 17|208b11 212l5 212t9
+59e23 CARAC{character} 17|208b18 210m15
+69U16*ECRIRE=70:42 17|287s9
+69a24 LA_CHAINE{string}
+75U16*LIRE 75<22 17|163b11 184l5 184t9 299s9 302s17
+75a22 LA_CHAINE{string} 17|163b17 164r17 175r14 177m9 177r19 177r36
+81U16*LIRE_TRANCHE 81<30 81<54 17|186b11 206l5 206t17
+81a30 LA_CHAINE{string} 17|186b25 187r17 198m9 198r19 198r36
+81i54 LONG{natural} 17|186b49 199m9
+87U16*ECRIRE_LIGNE=88:42 17|301s17
+87a30 LA_CHAINE{string}
+95U16*ECRIRE 95>23 17|285b11 288t4 292s9
+95b23 LE_BOOL{boolean} 17|285b18 287r30
+98U16*ECRIRE_LIGNE 98>29 17|290b11 294t4
+98b29 LE_BOOL{boolean} 17|290b24 292r16
+100U16*LIRE 100<21 17|296b11 307t4
+100b21 LE_BOOL{boolean} 17|296b16 304m44 305m14
+107U16*VIDER_TAMPON 17|158b11 161l5 161t17
+112U16*A_LA_LIGNE=113:42 17|116s19 126s20 264s9 282s9 293s9
+112i28 NOMBRE{6|68I12}
+116U16*PAUSE 17|214b11 218l5 218t10
+120U16*CLR_ECRAN 17|220b11 226l5 226t14
+127V18*IMAGE{string} 127>25 17|96b10 100l5 100t10
+127i25 L_ENTIER{integer} 17|96b17 99r24
+130V18*IMAGE{string} 130>25 17|28b10 93l13 93t18 111s15
+130f25 LE_REEL{float} 17|28b16 44r32 53r44 55r27 55r46 57r39 64r28 66r31
+. 73r45
+135V18*IMAGE{string} 135>25 17|102b10 107l5 107t10
+135b25 LE_BOOL{boolean} 17|102b17 106r30
+143E16 T_ENUM 153r39 159r40 163r41 167r46 17|231r29 233r10 236r30 237r18
+. 247r19 256r31 258r15 261r36
+144k14*P_ENUM 143z16 170l13 170e19 17|229b14 267l5 267t11
+153V20*IMAGE{string} 153>27 17|231b10 234l5 234t10
+153*27 L_ENUM{143E16} 17|231b17 233r23
+159U21*LIRE 159<27 17|236b11 254l5 254t9
+159*27 L_ENUM{143E16} 17|236b17 247m9
+163U21*ECRIRE 163>29 17|256b11 259l5 259t11 263s9
+163*29 L_ENUM{143E16} 17|256b19 258r28
+167U21*ECRIRE_LIGNE 167>34 17|261b11 265t4
+167*34 L_ENUM{143E16} 17|261b24 263r16
+176+16 mon_type 177r34
+177P16 t_acces(176+16) 178r39 17|270r26 272r43
+178u21*ecrire_acc 178>32 17|270b11 276l5 276t15
+178*32 a{177P16} 17|270b22 275r18
+X 17 p_esiut.adb
+11K9 REEL_IO[8|46] 44r17 57r25 133r7
+40a17 s{string} 44m29 45r22 47r23 47r39 57m37 59r30 60r35 60r51 65r46 65r51
+. 69r40 69r45 75m25 76m25 80m25 82m25 82r42 83m25 83r47 83r58 87r31 87r45
+. 90r32
+41i17 k{natural} 45m17 47r25 47r41 48m25 48r30 59m25 60r31 60r53 61m33 61r38
+. 65r48 69r42 79m25 80r30 82r27 83r27 83r32 86r28
+41i20 j{natural} 86m25 87r33 87r47 88m33 88r38 90r37
+41i23 exp{natural} 78m25 79r32
+41i28 nbchiffres{natural} 46m17 49m25 49r39 52r20
+42a17 Simage{string} 73m25 75r32 75r39 78r45 78r52 78r67 82r35 83r40
+144a3 S{string} 149m24 150r33
+145i3 L{positive} 149m26 150r38
+164a3 S{string} 165r24 169m24 170r15 173m9 177r60
+165i3 L{integer} 169m26 170r10 175m9 177r52 177r65
+187a3 S{string} 188r24 192m24 193r15 198r60
+188i3 L{integer} 192m26 193r10 198r52 198r65 199r17
+237a3 S{string} 238r24 242m24 243r15 247r32
+238i3 L{integer} 242m26 243r10 247r37
+272V10 conv[39|20]{integer} 275s13
+273K9 int_io[11|46] 273r48
+297a9 rep{string} 299m14 300r15 300r32 300r49 300r66 302m22 304r12 304r27
+X 18 system.ads
+37K9*System 17|1w6 1r18 18|156e11
+X 38 text_io.ads
+24K9*Text_IO=24:29 16|13w8 54r34 70r34 88r34 112r37 113r34 17|3w6 3r19 11r24
+. 111r3 121r3 134r7 137r22 138r22 149r7 153r22 160r3 169r7 171r9 172r9 181r22
+. 192r7 194r9 195r9 203r22 210r3 211r3 216r3 217r3 224r7 225r7 242r7 244r9
+. 245r9 251r22 258r3
+X 39 unchconv.ads
+20v10*Unchecked_Conversion 17|2w6 272r22
+

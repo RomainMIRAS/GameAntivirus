@@ -1,0 +1,64 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV SPARK_05
+
+U stdarg.machine%s	stdarg-machine.ads	dca5179d NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W stdarg%s		stdarg.adb		stdarg.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-c.ads		20170908151217 5421119b interfaces.c%s
+D i-cstrin.ads		20180111085525 341d0ddf interfaces.c.strings%s
+D stdarg.ads		20131119093435 7296442b stdarg%s
+D stdarg-machine.ads	20131119093435 fa12422d stdarg.machine%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+X 3 interfac.ads
+38K9*Interfaces 184e15 7|18r6 63r38 67r38 71r38
+X 4 i-c.ads
+18K20*C 230e17 7|18w17 63r49 67r49 71r49
+37I9*long<long_integer>
+65F9*double<long_float> 7|63r51 67r51 71r51
+X 6 stdarg.ads
+23K9*Stdarg 86e11 7|20r9 86r5
+45I13*C_Param{4|37I9} 7|54r38 55r38 58r38 59r38 62r38 66r38 70r38 74r38 75r38
+. 84r49
+X 7 stdarg-machine.ads
+20K16*Machine 6|23k9 7|86l12 86e19
+36E10*Arch 36e57 38r25 52r39
+36n19*I386{36E10} 53r9
+36n25*Sparc{36E10} 38r33 57r11
+36n32*HP{36E10} 61r11
+36n36*Mips{36E10} 65r11
+36n42*Alpha{36E10} 69r11
+36n49*PowerPC{36E10} 73r11
+38e5*This_Arch{36E10} 80r45
+40E10*Stack_Growth_Direction 42e14 47r23 83r28
+41n9*Up{40E10} 56r38 60r38 68r38 72r38 76r38
+42n9*Down{40E10} 64r38
+44R10*Arch_Description_Rec 48e15 52r48 79r28
+45i9*Int_Param_Alignment{positive} 54m13 58m13 62m13 66m13 70m13 74m13 81m50
+46i9*Float_Param_Alignment{positive} 55m13 59m13 63m13 67m13 71m13 75m13
+. 82m50
+47e9*Stack_Growth{40E10} 56m13 60m13 64m13 68m13 72m13 76m13 83m64
+50N5*SU 54r51 55r51 58r51 59r51 62r51 63r63 66r51 67r63 70r51 71r63 74r51
+. 75r51 84r62
+52a5*Arch_Description(44R10) 80r28
+79r5*Desc=80:28{44R10} 81r45 82r45 83r59
+81i5*Int_Param_Alignment{positive}
+82i5*Float_Param_Alignment{positive}
+83e5*Stack_Growth{40E10}
+84i5*Param_Size{positive}
+X 8 system.ads
+37K9*System 7|50r21 8|156e11
+71N4*Storage_Unit 7|50r28
+

@@ -1,0 +1,418 @@
+V "GNAT Lib v8"
+A -gnatv
+A -gnato
+P ZX
+
+RN
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U x%s			x.ads			73cd2aaa NE OO PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-c.ads		20170908151217 5421119b interfaces.c%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D x.ads			20131119093435 27ec3b31 x%s
+X 3 interfac.ads
+38K9*Interfaces 184e15 9|19r6 164r43 166r43 375r29 376r29 377r29 379r29 381r29
+. 384r31 385r31 386r31 387r31 423r37
+X 4 i-c.ads
+18K20*C 230e17 9|19w17 164r54 166r54 375r40 376r40 377r40 379r40 381r40 384r42
+. 385r42 386r42 387r42 423r48
+35I9*int<integer> 9|164r56 166r56 379r42
+36I9*short<short_integer> 9|377r42
+37I9*long<long_integer> 9|381r42
+40I9*signed_char<short_short_integer> 9|376r42
+43M9*unsigned 9|386r44
+44M9*unsigned_short 9|385r44
+45M9*unsigned_long 9|387r44
+47M9*unsigned_char 9|384r44
+72E9*char<character> 9|375r42
+108E9*wchar_t<wide_character> 9|423r50
+X 9 x.ads
+21K9*X 430l5 430e6
+23N5*X_PROTOCOL
+24N5*X_PROTOCOL_REVISION
+25N5*None
+26N5*ParentRelative
+27N5*CopyFromParent
+28N5*PointerWindow
+29N5*InputFocus
+30N5*PointerRoot
+31N5*AnyPropertyType
+32N5*AnyKey
+33N5*AnyButton
+34N5*AllTemporary
+35N5*CurrentTime
+36N5*NoSymbol
+37N5*NoEventMask
+38N5*KeyPressMask
+39N5*KeyReleaseMask
+40N5*ButtonPressMask
+41N5*ButtonReleaseMask
+42N5*EnterWindowMask
+43N5*LeaveWindowMask
+44N5*PointerMotionMask
+45N5*PointerMotionHintMask
+46N5*Button1MotionMask
+47N5*Button2MotionMask
+48N5*Button3MotionMask
+49N5*Button4MotionMask
+50N5*Button5MotionMask
+51N5*ButtonMotionMask
+52N5*KeymapStateMask
+53N5*ExposureMask
+54N5*VisibilityChangeMask
+55N5*StructureNotifyMask
+56N5*ResizeRedirectMask
+57N5*SubstructureNotifyMask
+58N5*SubstructureRedirectMask
+59N5*FocusChangeMask
+60N5*PropertyChangeMask
+61N5*ColormapChangeMask
+62N5*OwnerGrabButtonMask
+63N5*KeyPress
+64N5*KeyRelease
+65N5*ButtonPress
+66N5*ButtonRelease
+67N5*MotionNotify
+68N5*EnterNotify
+69N5*LeaveNotify
+70N5*FocusIn
+71N5*FocusOut
+72N5*KeymapNotify
+73N5*Expose
+74N5*GraphicsExpose
+75N5*NoExpose
+76N5*VisibilityNotify
+77N5*CreateNotify
+78N5*DestroyNotify
+79N5*UnmapNotify
+80N5*MapNotify
+81N5*MapRequest
+82N5*ReparentNotify
+83N5*ConfigureNotify
+84N5*ConfigureRequest
+85N5*GravityNotify
+86N5*ResizeRequest
+87N5*CirculateNotify
+88N5*CirculateRequest
+89N5*PropertyNotify
+90N5*SelectionClear
+91N5*SelectionRequest
+92N5*SelectionNotify
+93N5*ColormapNotify
+94N5*ClientMessage
+95N5*MappingNotify
+96N5*LASTEvent
+97N5*ShiftMask
+98N5*LockMask
+99N5*ControlMask
+100N5*Mod1Mask
+101N5*Mod2Mask
+102N5*Mod3Mask
+103N5*Mod4Mask
+104N5*Mod5Mask
+105N5*ShiftMapIndex
+106N5*LockMapIndex
+107N5*ControlMapIndex
+108N5*Mod1MapIndex
+109N5*Mod2MapIndex
+110N5*Mod3MapIndex
+111N5*Mod4MapIndex
+112N5*Mod5MapIndex
+113N5*Button1Mask
+114N5*Button2Mask
+115N5*Button3Mask
+116N5*Button4Mask
+117N5*Button5Mask
+118N5*AnyModifier
+119N5*Button1
+120N5*Button2
+121N5*Button3
+122N5*Button4
+123N5*Button5
+124N5*NotifyNormal
+125N5*NotifyGrab
+126N5*NotifyUngrab
+127N5*NotifyWhileGrabbed
+128N5*NotifyHint
+129N5*NotifyAncestor
+130N5*NotifyVirtual
+131N5*NotifyInferior
+132N5*NotifyNonlinear
+133N5*NotifyNonlinearVirtual
+134N5*NotifyPointer
+135N5*NotifyPointerRoot
+136N5*NotifyDetailNone
+137N5*VisibilityUnobscured
+138N5*VisibilityPartiallyObscured
+139N5*VisibilityFullyObscured
+140N5*PlaceOnTop
+141N5*PlaceOnBottom
+142N5*FamilyInternet
+143N5*FamilyDECnet
+144N5*FamilyChaos
+145N5*PropertyNewValue
+146N5*PropertyDelete
+147N5*ColormapUninstalled
+148N5*ColormapInstalled
+149N5*GrabModeSync
+150N5*GrabModeAsync
+151N5*GrabSuccess
+152N5*AlreadyGrabbed
+153N5*GrabInvalidTime
+154N5*GrabNotViewable
+155N5*GrabFrozen
+156N5*AsyncPointer
+157N5*SyncPointer
+158N5*ReplayPointer
+159N5*AsyncKeyboard
+160N5*SyncKeyboard
+161N5*ReplayKeyboard
+162N5*AsyncBoth
+163N5*SyncBoth
+164i5*RevertToNone{4|35I9}
+166i5*RevertToPointerRoot{4|35I9}
+168N5*RevertToParent
+169N5*Success
+170N5*BadRequest
+171N5*BadValue
+172N5*BadWindow
+173N5*BadPixmap
+174N5*BadAtom
+175N5*BadCursor
+176N5*BadFont
+177N5*BadMatch
+178N5*BadDrawable
+179N5*BadAccess
+180N5*BadAlloc
+181N5*BadColor
+182N5*BadGC
+183N5*BadIDChoice
+184N5*BadName
+185N5*BadLength
+186N5*BadImplementation
+187N5*FirstExtensionError
+188N5*LastExtensionError
+189N5*InputOutput
+190N5*InputOnly
+191N5*CWBackPixmap
+192N5*CWBackPixel
+193N5*CWBorderPixmap
+194N5*CWBorderPixel
+195N5*CWBitGravity
+196N5*CWWinGravity
+197N5*CWBackingStore
+198N5*CWBackingPlanes
+199N5*CWBackingPixel
+200N5*CWOverrideRedirect
+201N5*CWSaveUnder
+202N5*CWEventMask
+203N5*CWDontPropagate
+204N5*CWColormap
+205N5*CWCursor
+206N5*CWX
+207N5*CWY
+208N5*CWWidth
+209N5*CWHeight
+210N5*CWBorderWidth
+211N5*CWSibling
+212N5*CWStackMode
+213N5*ForgetGravity
+214N5*NorthWestGravity
+215N5*NorthGravity
+216N5*NorthEastGravity
+217N5*WestGravity
+218N5*CenterGravity
+219N5*EastGravity
+220N5*SouthWestGravity
+221N5*SouthGravity
+222N5*SouthEastGravity
+223N5*StaticGravity
+224N5*UnmapGravity
+225N5*NotUseful
+226N5*WhenMapped
+227N5*Always
+228N5*IsUnmapped
+229N5*IsUnviewable
+230N5*IsViewable
+231N5*SetModeInsert
+232N5*SetModeDelete
+233N5*DestroyAll
+234N5*RetainPermanent
+235N5*RetainTemporary
+236N5*Above
+237N5*Below
+238N5*TopIf
+239N5*BottomIf
+240N5*Opposite
+241N5*RaiseLowest
+242N5*LowerHighest
+243N5*PropModeReplace
+244N5*PropModePrepend
+245N5*PropModeAppend
+246N5*GXclear
+247N5*GXand
+248N5*GXandReverse
+249N5*GXcopy
+250N5*GXandInverted
+251N5*GXnoop
+252N5*GXxor
+253N5*GXor
+254N5*GXnor
+255N5*GXequiv
+256N5*GXinvert
+257N5*GXorReverse
+258N5*GXcopyInverted
+259N5*GXorInverted
+260N5*GXnand
+261N5*GXset
+262N5*LineSolid
+263N5*LineOnOffDash
+264N5*LineDoubleDash
+265N5*CapNotLast
+266N5*CapButt
+267N5*CapRound
+268N5*CapProjecting
+269N5*JoinMiter
+270N5*JoinRound
+271N5*JoinBevel
+272N5*FillSolid
+273N5*FillTiled
+274N5*FillStippled
+275N5*FillOpaqueStippled
+276N5*EvenOddRule
+277N5*WindingRule
+278N5*ClipByChildren
+279N5*IncludeInferiors
+280N5*Unsorted
+281N5*YSorted
+282N5*YXSorted
+283N5*YXBanded
+284N5*CoordModeOrigin
+285N5*CoordModePrevious
+286N5*Complex
+287N5*Nonconvex
+288N5*Convex
+289N5*ArcChord
+290N5*ArcPieSlice
+291N5*GCFunction
+292N5*GCPlaneMask
+293N5*GCForeground
+294N5*GCBackground
+295N5*GCLineWidth
+296N5*GCLineStyle
+297N5*GCCapStyle
+298N5*GCJoinStyle
+299N5*GCFillStyle
+300N5*GCFillRule
+301N5*GCTile
+302N5*GCStipple
+303N5*GCTileStipXOrigin
+304N5*GCTileStipYOrigin
+305N5*GCFont
+306N5*GCSubwindowMode
+307N5*GCGraphicsExposures
+308N5*GCClipXOrigin
+309N5*GCClipYOrigin
+310N5*GCClipMask
+311N5*GCDashOffset
+312N5*GCDashList
+313N5*GCArcMode
+314N5*GCLastBit
+315N5*FontLeftToRight
+316N5*FontRightToLeft
+317N5*FontChange
+318N5*XYBitmap
+319N5*XYPixmap
+320N5*ZPixmap
+321N5*AllocNone
+322N5*AllocAll
+323N5*DoRed
+324N5*DoGreen
+325N5*DoBlue
+326N5*CursorShape
+327N5*TileShape
+328N5*StippleShape
+329N5*AutoRepeatModeOff
+330N5*AutoRepeatModeOn
+331N5*AutoRepeatModeDefault
+332N5*LedModeOff
+333N5*LedModeOn
+334N5*KBKeyClickPercent
+335N5*KBBellPercent
+336N5*KBBellPitch
+337N5*KBBellDuration
+338N5*KBLed
+339N5*KBLedMode
+340N5*KBKey
+341N5*KBAutoRepeatMode
+342N5*MappingSuccess
+343N5*MappingBusy
+344N5*MappingFailed
+345N5*MappingModifier
+346N5*MappingKeyboard
+347N5*MappingPointer
+348N5*DontPreferBlanking
+349N5*PreferBlanking
+350N5*DefaultBlanking
+351N5*DisableScreenSaver
+352N5*DisableScreenInterval
+353N5*DontAllowExposures
+354N5*AllowExposures
+355N5*DefaultExposures
+356N5*ScreenSaverReset
+357N5*ScreenSaverActive
+358N5*HostInsert
+359N5*HostDelete
+360N5*EnableAccess
+361N5*DisableAccess
+362N5*StaticGray
+363N5*GrayScale
+364N5*StaticColor
+365N5*PseudoColor
+366N5*TrueColor
+367N5*DirectColor
+368N5*LSBFirst
+369N5*MSBFirst
+375E13*char{4|72E9}
+376I13*signed_char{4|40I9}
+377I13*short{4|36I9} 378r29
+378I13*signed_short{377I13}
+379I13*int{4|35I9} 380r29
+380I13*signed_int{379I13} 420r35
+381I13*long{4|37I9} 382r29
+382I13*signed_long{381I13}
+384M13*unsigned_char{4|47M9} 402r25 421r45 422r56
+385M13*unsigned_short{4|44M9}
+386M13*unsigned_int{4|43M9}
+387M13*unsigned_long{4|45M9} 389r21 398r22 399r22 400r26 401r22
+389M10*XID<4|45M9> 390r24 391r26 392r22 393r24 394r24 395r26 396r26 397r24
+390M10*Window<389M10>
+391M10*Drawable<389M10>
+392M10*Font<389M10>
+393M10*Pixmap<389M10>
+394M10*Cursor<389M10>
+395M10*Colormap<389M10>
+396M10*GContext<389M10>
+397M10*KeySym<389M10>
+398M10*Mask<4|45M9>
+399M10*Atom<4|45M9>
+400M10*VisualID<4|45M9>
+401M10*Time<4|45M9>
+402M10*KeyCode<4|47M9>
+413N5*ANYSIZE_ARRAY
+420P10*Int_Access(380I13)
+421P10*unsigned_char_access(384M13)
+422P10*const_unsigned_char_access(384M13)
+423P10*wchar_access(4|108E9) 424r44
+424P10*wchar_access_access(423P10)
+

@@ -6,11 +6,8 @@ This was our initial project, so be indulgent please.
 
 ## Usage.
 
--  Clone our depo
-- Put the plugin Skript jar in the plugin folder on the server ( Can be find a many website )
-- Change the skript folder on the server by ours !
-- You are setup the plugin by using command /help
-- Enjoy !
+No usage for now in research because it's was an old project and we have to missing librairy
+Currently in research for a solution.
 
 ## Credit
  Creator : 
